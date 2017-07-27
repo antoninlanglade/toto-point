@@ -28,5 +28,5 @@ console.log('Get point from p1 angle and distance', p1.pointWithAngleAndDistance
 
 // INTERVAL
 console.log('Get points from interval [p1, p2] and number', p1.getIntervalPoints(p1, p2, 10));
-console.log('Check if points p1 is inside a triangle',p1.isContainerInTriangle(p2, p5, p6));
-console.log('Check if points p3 is inside a triangle',p3.isContainerInTriangle(p2, p5, p6));
+console.log('Check if points p1 is inside a triangle',p1.isContainInTriangle(p2, p5, p6));
+console.log('Check if points p3 is inside a triangle',p3.isContainInTriangle(p2, p5, p6));

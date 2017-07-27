@@ -163,7 +163,7 @@ export default class Point {
    * @param {Point} p3
    * @return {Boolean}
    */
-  isContainerInTriangle(p1, p2, p3) {
+  isContainInTriangle(p1, p2, p3) {
       var b1 = this._sign(this, p1, p2) < 0,
           b2 = this._sign(this, p2, p3) < 0,
           b3 = this._sign(this, p3, p1) < 0;
