@@ -1,4 +1,4 @@
-<h1 align="center">toto-points</h1>
+<h1 align="center">toto-point</h1>
 <h3 align="center">Point class</h3>
 
 ## Features
