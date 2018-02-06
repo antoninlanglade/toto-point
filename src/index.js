@@ -127,7 +127,7 @@ export default class Point {
    */
   pointWithAngleAndDistance(angle, distance) {
     angle = angle * Math.PI / 180;
-    return { x: distance * Math.cos(angle) + this.x, y: distance * Math.sin(angle) + this.y };
+    return new Point(distance * Math.cos(angle) + this.x, distance * Math.sin(angle) + this.y);
   }
 
 
